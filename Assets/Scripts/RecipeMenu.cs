@@ -49,6 +49,7 @@ public class RecipeMenu : MonoBehaviour
                     tool.visible = true;
                     tool.interactable = true;
                 }
+                recipe1.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             case 1:
@@ -62,6 +63,7 @@ public class RecipeMenu : MonoBehaviour
                     tool.visible = true;
                     tool.interactable = true;
                 }
+                recipe2.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             case 2:
@@ -75,6 +77,7 @@ public class RecipeMenu : MonoBehaviour
                     tool.visible = true;
                     tool.interactable = true;
                 }
+                recipe3.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             case 3:
@@ -88,6 +91,7 @@ public class RecipeMenu : MonoBehaviour
                     tool.visible = true;
                     tool.interactable = true;
                 }
+                recipe4.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             default:
@@ -101,6 +105,7 @@ public class RecipeMenu : MonoBehaviour
                     tool.visible = true;
                     tool.interactable = true;
                 }
+                recipe5.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
         }

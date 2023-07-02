@@ -11,6 +11,7 @@ public class SceneControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             foreach (Recipe r in recipes) {
+                r.relatedQuest.currentStageID = -1;
                 foreach (Item ingredient in r.ingredients)
                 {
                     ingredient.visible = false;

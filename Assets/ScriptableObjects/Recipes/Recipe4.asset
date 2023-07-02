@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredients: []
   ingredientCounts: 
-  tools: []
+  tools:
+  - {fileID: 11400000, guid: 52bb89fdf6400de4bbcd93211fd28f89, type: 2}
+  relatedQuest: {fileID: 11400000, guid: ccfc468b1d7b4014eb51b867fcc0a1a7, type: 2}
   name: Colorazione semplice
   description: Esercitazione sull'utilizzo di un singolo colorante basico per informazioni
     su forma e dimensioni dei batteri

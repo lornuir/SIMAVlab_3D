@@ -19,6 +19,7 @@ MonoBehaviour:
   ingredientCounts: 020000000a00000001000000
   tools:
   - {fileID: 11400000, guid: 40f40af9351bcf343bbbf65de9363f8c, type: 2}
+  relatedQuest: {fileID: 11400000, guid: ae104b610beedd149a0fd9dceede5acd, type: 2}
   name: Isolamento di colonie singole
   description: Esercitazione su diluizione di una coltura liquida su piastra di terreno
     solido

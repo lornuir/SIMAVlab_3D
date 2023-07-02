@@ -19,6 +19,8 @@ MonoBehaviour:
   tools:
   - {fileID: 11400000, guid: 9b3d994af0069a04f90a66a2abc48f0f, type: 2}
   - {fileID: 11400000, guid: 40f40af9351bcf343bbbf65de9363f8c, type: 2}
+  - {fileID: 11400000, guid: dd4302be2bb8fb04583ad4ba77f295d4, type: 2}
+  relatedQuest: {fileID: 11400000, guid: e379cfeb3f5131f4f93e9e398364add9, type: 2}
   name: Titolazione per conta vitale
   description: Esercitazione su diluizione di una coltura su piastra di terreno solido
     per ottenere un numero contabile di colonie

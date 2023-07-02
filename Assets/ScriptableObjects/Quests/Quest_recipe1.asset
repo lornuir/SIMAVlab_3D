@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67876fbe4d1942742bfb501ffe9185b8, type: 3}
+  m_Name: Quest_recipe1
+  m_EditorClassIdentifier: 
+  stages:
+  - Primo obiettivo.
+  - Secondo obiettivo.
+  name: Isolamento colonie singole
+  description: Isolamento di una popolazione derivante da un'unica cellula
+  questID: 0
+  currentStageID: -1
+  requiredStageItem: {fileID: 0}
+  completed: 0

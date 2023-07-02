@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredients: []
   ingredientCounts: 
-  tools: []
+  tools:
+  - {fileID: 11400000, guid: 52bb89fdf6400de4bbcd93211fd28f89, type: 2}
+  relatedQuest: {fileID: 11400000, guid: 92707e46241faf04a99ffe0a97928b01, type: 2}
   name: Colorazione negativa
   description: Esercitazione sulla colorazione indiretta

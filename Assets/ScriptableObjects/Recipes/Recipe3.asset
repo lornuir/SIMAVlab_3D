@@ -15,5 +15,6 @@ MonoBehaviour:
   ingredients: []
   ingredientCounts: 
   tools: []
+  relatedQuest: {fileID: 11400000, guid: dd2f0159a1c47b245850ff1021b0c94d, type: 2}
   name: Piastre da contatto
   description: Esercitazione sulla valutazione della carica batterica totale

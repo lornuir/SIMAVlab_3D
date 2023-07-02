@@ -9,6 +9,7 @@ public class Recipe : ScriptableObject
     public List<Item> ingredients;
     public List<int> ingredientCounts;
     public List<Tool> tools;
+    public Quest relatedQuest;
     public string name;
     public string description;
 }
