@@ -15,9 +15,12 @@ MonoBehaviour:
   stages:
   - Primo obiettivo.
   - Secondo obiettivo.
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
   name: Titolazione per conta vitale
   description: Titolazione in CFU/ml distinguendo tra cellule morte e cellule vive
   questID: 1
-  currentStageID: -1
+  currentStageID: 0
   requiredStageItem: {fileID: 0}
   completed: 0

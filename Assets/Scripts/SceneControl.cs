@@ -6,6 +6,28 @@ using UnityEngine.SceneManagement;
 public class SceneControl : MonoBehaviour
 {
     public List<Recipe> recipes;
+    GameObject objToSpawn;
+    public Transform location;
+    Quest activeQuest;
+    string name;
+
+    private void Craft() {
+        foreach (Recipe r in recipes) {
+            if (r.relatedQuest.currentStageID != -1 && r.relatedQuest.requiredStageItem != null) {
+                name = r.relatedQuest.requiredStageItem.name;
+                activeQuest = r.relatedQuest;
+            }
+        }
+        if (activeQuest.requiredStageItem != null)
+        {
+            objToSpawn = (GameObject)Resources.Load("Prefabs/" + activeQuest.requiredStageItem.name);
+            objToSpawn.name = name;
+            Instantiate(objToSpawn, location.position, location.rotation);
+        }
+
+    }
+   
+
     private void backToMenu()
     {
         if (Input.GetKeyDown(KeyCode.R))
@@ -36,5 +58,8 @@ public class SceneControl : MonoBehaviour
     void Update()
     {
         backToMenu();
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            Craft();
+        }
     }
 }

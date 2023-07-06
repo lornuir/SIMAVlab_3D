@@ -18,6 +18,12 @@ MonoBehaviour:
   - Fare asciugare all'aria.
   - Osservare al microscopio, fino a 100x.
   - Completata.
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   name: Colorazione negativa
   description: "Visione pi\xF9 chiara dei batteri mediante colorazione dello sfondo"
   questID: 4

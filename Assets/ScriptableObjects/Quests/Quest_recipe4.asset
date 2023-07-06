@@ -15,9 +15,13 @@ MonoBehaviour:
   stages:
   - Prelevare 10ul di coltura E. Coli, deporre su un vetrino e fissare tramite fiamma.
   - Coprire il vetrino con una goccia di blu di metilene.
-  - Asciugare su fiamma.
   - Osservare al microscopio, fino a 100x.
-  - Completata.
+  - Completata!
+  items:
+  - {fileID: 11400000, guid: f3aab3b316a50814bb7300d995749106, type: 2}
+  - {fileID: 11400000, guid: 400b64911cd90ea4a9c42e304edec7e1, type: 2}
+  - {fileID: 11400000, guid: ed133f02e6f75894da418b0d2e124a25, type: 2}
+  - {fileID: 0}
   name: Colorazione semplice
   description: "Visione pi\xF9 chiara dei batteri aumentando il contrasto con lo
     sfondo mediante un singolo colorante basico"

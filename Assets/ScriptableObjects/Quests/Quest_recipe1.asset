@@ -15,6 +15,9 @@ MonoBehaviour:
   stages:
   - Primo obiettivo.
   - Secondo obiettivo.
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
   name: Isolamento colonie singole
   description: Isolamento di una popolazione derivante da un'unica cellula
   questID: 0

@@ -7,6 +7,7 @@ using UnityEngine;
 public class Quest : ScriptableObject
 {
     public List<string> stages;
+    public List<Item> items;
     public string name;
     public string description;
     public int questID;

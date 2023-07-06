@@ -15,6 +15,9 @@ MonoBehaviour:
   stages:
   - Primo obiettivo.
   - Secondo obiettivo.
+  items:
+  - {fileID: 0}
+  - {fileID: 0}
   name: Piastre da contatto
   description: Colture specifiche per monitoraggio superfici e ambienti di lavoro
   questID: 2

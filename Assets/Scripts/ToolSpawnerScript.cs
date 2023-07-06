@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ToolSpawnerScript : MonoBehaviour
 {
-    public GameObject obj;
-    public Tool tool;
+    [SerializeField] GameObject obj;
+    [SerializeField] Tool tool;
     // Start is called before the first frame update
     void Start()
     {

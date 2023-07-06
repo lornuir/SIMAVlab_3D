@@ -43,11 +43,9 @@ public class RecipeMenu : MonoBehaviour
             case 0:
                 foreach (Item ingredient in recipe1.ingredients) {
                     ingredient.visible = true;
-                    ingredient.interactable = true;
                 }
                 foreach (Tool tool in recipe1.tools) {
                     tool.visible = true;
-                    tool.interactable = true;
                 }
                 recipe1.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -56,12 +54,10 @@ public class RecipeMenu : MonoBehaviour
                 foreach (Item ingredient in recipe2.ingredients)
                 {
                     ingredient.visible = true;
-                    ingredient.interactable = true;
                 }
                 foreach (Tool tool in recipe2.tools)
                 {
                     tool.visible = true;
-                    tool.interactable = true;
                 }
                 recipe2.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -70,12 +66,10 @@ public class RecipeMenu : MonoBehaviour
                 foreach (Item ingredient in recipe3.ingredients)
                 {
                     ingredient.visible = true;
-                    ingredient.interactable = true;
                 }
                 foreach (Tool tool in recipe3.tools)
                 {
                     tool.visible = true;
-                    tool.interactable = true;
                 }
                 recipe3.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -84,12 +78,10 @@ public class RecipeMenu : MonoBehaviour
                 foreach (Item ingredient in recipe4.ingredients)
                 {
                     ingredient.visible = true;
-                    ingredient.interactable = true;
                 }
                 foreach (Tool tool in recipe4.tools)
                 {
                     tool.visible = true;
-                    tool.interactable = true;
                 }
                 recipe4.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
@@ -98,12 +90,10 @@ public class RecipeMenu : MonoBehaviour
                 foreach (Item ingredient in recipe5.ingredients)
                 {
                     ingredient.visible = true;
-                    ingredient.interactable = true;
                 }
                 foreach (Tool tool in recipe5.tools)
                 {
                     tool.visible = true;
-                    tool.interactable = true;
                 }
                 recipe5.relatedQuest.currentStageID = 0;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

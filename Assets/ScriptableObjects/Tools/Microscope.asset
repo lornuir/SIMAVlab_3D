@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8abaecf4cc66e3e418fd3cb4adb55724, type: 3}
   m_Name: Microscope
   m_EditorClassIdentifier: 
-  name: 
+  name: Microscope
   temperature: 0
   visible: 0
   interactable: 0
